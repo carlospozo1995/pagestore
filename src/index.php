@@ -6,6 +6,6 @@
 	<title>page store</title>
 </head>
 <body>
-	<h1>locs.ldmfñlal</h1>
+	<h1>desplegado desde render</h1>
 </body>
 </html>
