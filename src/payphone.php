@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <?php
+
+function dep($data){
+    $format = print_r('<pre>');
+    $format .= print_r($data);
+    $format .= print_r('</pre>');
+    return $format;
+}
 //Obtener parametros de la URL enviados por PayPhone
 $transaccion = $_GET["id"];
 $client = $_GET["clientTransactionId"];
@@ -28,5 +35,6 @@ if (curl_errno($curl)) {
 curl_close($curl);
 
 //En la variable result obtienes todos los parámetros de respuesta
-echo $result;
+$result = json_decode($result, true);
+dep($result);
 ?>
