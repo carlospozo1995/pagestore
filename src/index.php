@@ -15,7 +15,7 @@
 				var parametros ={
 					amount: 18.20 * 100,
 					amountWithoutTax: 18.20*100,
-					clientTransactionID: "24sd453f4sd6f118sd6fsd34sd",
+					clientTransactionID: "24sd453f4ssdf11234sd",
 					responseUrl: "https://page-store.onrender.com/payphone.php",
 					cancellationUrl: "https://page-store.onrender.com/payphone.php"
 				};
